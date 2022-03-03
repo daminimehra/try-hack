@@ -1,0 +1,29 @@
+{
+  "name": "moody_healthy_hack",
+  "version": "1.0.0",
+  "description": "The project on the mental health",
+  "main": "server.js",
+  "scripts": {
+    "start": " NODE_ENV=production node server.js",
+    "dev": "nodemon server"
+  },
+  "author": "Damini Mehra",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "colors": "^1.4.0",
+    "connect-flash": "^0.1.1",
+    "connect-mongodb-session": "^3.1.1",
+    "csurf": "^1.11.0",
+    "dotenv": "^16.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "express-session": "^1.17.2",
+    "mongoose": "^6.2.2",
+    "morgan": "^1.10.0",
+    "session": "^0.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
